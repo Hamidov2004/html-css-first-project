@@ -1,0 +1,444 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.create_account{
+    width: 100%;
+    height: auto;
+    background-color: #2B2B2B;
+    display: flex;
+    justify-content: space-between;
+}
+.account_left{
+    width: 45%;
+    height: auto;
+}
+.account_left img{
+    width: 100%;
+    height: 691px;
+    object-fit: cover;
+}
+
+.account_right{
+    width: 50%;
+    height: auto;
+    padding: 100px 0px 0px 0px;
+}
+.account_right_container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.title_box{
+    width: 90%;
+    height: 27%;
+    display: grid;
+    align-content: space-between;
+    margin-bottom: 10px;
+    row-gap: 20px;
+}
+.account_form{
+    width: 100%;
+    height: auto;
+    display: grid;
+    row-gap: 25px;
+    margin-top: 20px;
+}
+
+.logo_name{
+    width: 320px;
+    height: 72px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    border: 1px solid #A259FF;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 20px;
+    padding-left: 40px;
+}
+
+.logo_name img{
+    width: 40px;
+    height: 40px; 
+}
+
+.logo_name p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* create_account responsive starting */
+
+@media screen and (max-width: 576px){
+
+    .create_account{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .account_left{
+        width: 100%;
+        height: auto;
+    }
+    .account_left img{
+        width: 100%;
+        height: 232px;
+        object-fit: cover;
+    }
+    
+    .account_right{
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .account_right_container{
+        width: 100%;
+        height: 515px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        row-gap: 20px;
+    }
+
+    .title_box{
+        width: 100%;
+        height: 27%;
+        display: grid;
+        align-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .account_form{
+        width: 100%;
+        height: auto;
+        display: grid;
+        row-gap: 25px;
+        margin-top: 20px;
+    }
+    
+    .logo_name{
+        width: 100%;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        border: 1px solid #A259FF;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        column-gap: 20px;
+        padding-left: 40px;
+    }
+    
+    .logo_name img{
+        width: 32px;
+        height: 32px; 
+    }
+    
+}
+
+@media screen and (min-width: 576px){
+    .create_account{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .account_left{
+        width: 100%;
+        height: auto;
+    }
+    .account_left img{
+        width: 100%;
+        height: 232px;
+        object-fit: cover;
+    }
+    
+    .account_right{
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .account_right_container{
+        width: 100%;
+        height: 515px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        row-gap: 20px;
+    }
+
+   
+    .title_box{
+        width: 100%;
+        height: 27%;
+        display: grid;
+        align-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .account_form{
+        width: 100%;
+        height: auto;
+        display: grid;
+        row-gap: 25px;
+        margin-top: 20px;
+    }
+    
+    .logo_name{
+        width: 100%;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        border: 1px solid #A259FF;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        column-gap: 20px;
+        padding-left: 40px;
+    }
+    
+    .logo_name img{
+        width: 32px;
+        height: 32px; 
+    }
+        
+}
+
+
+@media screen and (min-width: 768px){
+   
+.create_account{
+    width: 100%;
+    height: auto;
+    background-color: #2B2B2B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.account_left{
+    width: 45%;
+    height: auto;
+}
+.account_left img{
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+}
+
+.account_right{
+    width: 40%;
+    height: auto;
+    padding: 80px 0px;
+
+}
+.account_right_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .title_box{
+        width: 80%;
+        height: 27%;
+        display: grid;
+        align-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .account_form{
+        width: 100%;
+        height: auto;
+        display: grid;
+        row-gap: 25px;
+        margin-top: 20px;
+    }
+    
+    .logo_name{
+        width: 320px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        border: 1px solid #A259FF;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        column-gap: 20px;
+        padding-left: 40px;
+    }
+    
+    .logo_name img{
+        width: 32px;
+        height: 32px; 
+    }
+}
+
+
+
+@media screen and (min-width: 1200px){
+    .create_account{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .account_left{
+        width: 45%;
+        height: auto;
+    }
+    .account_left img{
+        width: 100%;
+        height: 642px;
+        object-fit: cover;
+    }
+    
+    .account_right{
+        width: 40%;
+        height: auto;
+        padding: 100px 0px;
+    
+    }
+    .account_right_container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .title_box{
+        width: 90%;
+        height: 27%;
+        display: grid;
+        align-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .account_form{
+        width: 100%;
+        height: auto;
+        display: grid;
+        row-gap: 25px;
+        margin-top: 20px;
+    }
+    
+    .logo_name{
+        width: 320px;
+        height: 72px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        border: 1px solid #A259FF;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        column-gap: 20px;
+        padding-left: 40px;
+     
+    }
+    
+    .logo_name img{
+        width: 40px;
+        height: 40px; 
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .create_account{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .account_left{
+        width: 45%;
+        height: auto;
+    }
+    .account_left img{
+        width: 100%;
+        height: 691px;
+        object-fit: cover;
+    }
+    
+    .account_right{
+        width: 40%;
+        height: auto;
+        padding: 100px 0px;
+    
+    }
+    .account_right_container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .title_box{
+        width: 90%;
+        height: 27%;
+        display: grid;
+        align-content: space-between;
+        margin-bottom: 10px;
+
+    }
+
+    .account_form{
+        width: 100%;
+        height: auto;
+        display: grid;
+        row-gap: 25px;
+        margin-top: 20px;
+    }
+    
+    .logo_name{
+        width: 320px;
+        height: 72px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        border: 1px solid #A259FF;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        column-gap: 20px;
+        padding-left: 40px;
+    }
+    
+    .logo_name img{
+        width: 40px;
+        height: 40px; 
+    }
+}

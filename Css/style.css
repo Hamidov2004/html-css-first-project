@@ -1342,6 +1342,8 @@ padding: 30px 0px;
   background-color: #A259FF;
   border: none;
   border-radius: 20px;
+}
+.span{
   color: var(--oq);
   text-align: center;
   font-size: 16px;
