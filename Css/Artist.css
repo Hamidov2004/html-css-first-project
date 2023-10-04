@@ -1,0 +1,1643 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.artist{
+    width: 100%;
+    height: auto;
+    background-color: #2B2B2B;
+}
+.artist_container{
+    width: 100%;
+    height: 370px;
+    background-image: url('../images/section\ 12\ image1.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.artist_container img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    position: absolute;
+    bottom: -60px;
+    left: 7.5%;
+}
+.Animakid{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #2B2B2B;
+}
+.Animakid_container{
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 40px;
+}
+.top_kid{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.animakid_text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 51px;
+    line-height: 56.1px;
+    font-weight: 600;
+    color: white;
+}
+.top_kid_bottom{
+    width: 360px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.kid_btn1{
+    width: 186px;
+    height: 100%;
+    background-color: #A259FF;
+    border-radius: 20px;
+    color: white;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    column-gap: 13px;
+    border: none;
+}
+.kid_btn2{
+    width: 145px;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    padding: 0px 50px;
+    display: flex;
+    border: 2px solid #A259FF;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 600;
+    column-gap: 13px;
+}
+.kid_btn2 i{
+    color: #A259FF;
+}
+.kid_row1{
+    width: 520px;
+    height: 74px;
+    margin-top: 35px;
+    display: flex;
+    
+}
+.Numbers{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Numbers_bold{
+    font-family: 'Space Mono', monospace;
+    color: white;
+    font-size: 28px;
+    line-height: 39.2px;
+    font-weight: 700;
+}
+.Numbers p{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 35.2px;
+    font-weight: 400;
+}
+
+.kid_row2{
+    width: 599px;
+    height: 80px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Bio{
+    font-family: 'Space Mono', monospace;
+    color: #858584;
+    font-size: 22px;
+    line-height: 35.2px;
+    font-weight: 700;
+}
+.kid_row2 p{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 22px;
+    line-height: 35.2px;
+    font-weight: 400;
+}
+.kid_row3{
+    width: 599px;
+    height: 77px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icons{
+    width: 200px;
+    height: 32px;
+    display: flex;
+}
+.icons i{
+    width: 32px;
+    height: 32px;
+    color: #858584;
+}
+.Line_part{
+    width: 85%;
+    margin: 0 auto;
+    height: 70px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    border-top: 1px solid #3B3B3B;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.Line_part_box{
+    width: 17%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.div302{
+    width: 50px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    padding: 5px 10px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+}
+.owned{
+    font-family: 'Work Sans', sans-serif;
+    color: #858584;
+    font-size: 22px;
+    line-height: 30.8px;
+    font-weight: 600; 
+}
+.div67{
+    width: 40px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    padding: 5px 10px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+}
+
+.div_4{
+    width: 30px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    padding: 5px 10px;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+}
+.Line_part_box span{
+    transition: .2s ease-in-out;
+}
+.Line_part_box div{
+    transition: .2s ease-in-out;
+}
+.Line_part_box:hover span{
+    color: white;
+}
+.Line_part_box:hover div{
+    background-color: #858584;
+}
+
+.Artist_card_background{
+    width: 100%;
+    height: auto;
+    background-color: #3B3B3B;
+}
+
+.scn5_card{
+    background-color: #2B2B2B;
+    width: 330px;
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+}
+.Artist_cards{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    padding: 80px 0px;
+    display: grid;
+    justify-content: space-between;
+    row-gap: 42px;
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: repeat(3, 469px);
+    padding: 25px 30px;
+}
+
+
+
+
+@media screen and (max-width: 576px){
+    .artist{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+    }
+    .artist_container{
+        width: 100%;
+        height: 250px;
+        background-image: url('../images/section\ 12\ image1.png') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .artist_container img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        position: absolute;
+        bottom: -50px;
+        left: 37%;
+   
+    }
+
+    .Animakid{
+        width: 100%;
+        height: auto;
+        padding: 30px 0px;
+        background-color: #2B2B2B;
+        
+    }
+    .Animakid_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .top_kid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .animakid_text{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 28px;
+        line-height: 39.2px;
+        font-weight: 600;
+        color: white;
+    }
+    .top_kid_bottom{
+        width: 100%;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .kid_btn1{
+        width: 100%;
+        height: 60px;
+        background-color: #A259FF;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2{
+        width: 100%;
+        height: 60px;
+        background-color: transparent;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2 i{
+        width: 20px;
+        height: 20px;
+        color: #A259FF;
+    }
+    .kid_row1{
+        width: 100%;
+        height: 57px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .Numbers{
+        width: 91px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Numbers_bold{
+        font-family: 'Space Mono', monospace;
+        color: white;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 700;
+    }
+    .Numbers p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    
+    .kid_row2{
+        width: 100%;
+        height: 54px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Bio{
+        font-family: 'Space Mono', monospace;
+        color: #858584;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    .kid_row2 p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    .kid_row3{
+        width: 100%;
+        height: 56px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .icons{
+        width: 160px;
+        height: 24px;
+        display: flex;
+        column-gap: 6px;
+    }
+    .icons i{
+        width: 24px;
+        height: 24px;
+        font-size: 16px;
+        color: #858584;
+    }
+    .Line_part{
+        width: 85%;
+        margin: 0 auto;
+        height: 70px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        border-top: 1px solid #3B3B3B;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .Line_part_box{
+        width: 33%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+    }
+    .Line_part_box:hover{
+        border-bottom: 2px solid#858584;
+    }
+    .div302{
+        display: none;
+        width: 43px;
+        height: 23px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 12px;
+        line-height: 13.2px;
+        font-weight: 400;
+    }
+    .owned{
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600; 
+    }
+    .div67{
+        display: none;
+        width: 40px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    
+    .div_4{
+        display: none;
+        width: 30px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400; 
+}
+
+
+        .Artist_cards{
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        padding: 80px 0px;
+        display: grid;
+        justify-content: space-between;
+        row-gap: 42px;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(3, 402px);
+        }
+
+        .artist_extra{
+            display: none;
+        }
+        .scn5_card{
+            width: 100%;
+            height: 402px;
+        }
+}
+
+
+@media screen and (min-width: 576px){
+    .artist{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+    }
+    .artist_container{
+        width: 100%;
+        height: 250px;
+        background-image: url('../images/section\ 12\ image1.png') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .artist_container img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        position: absolute;
+        bottom: -50px;
+        left: 37%;
+   
+    }
+
+    .Animakid{
+        width: 100%;
+        height: auto;
+        padding: 30px 0px;
+        background-color: #2B2B2B;
+        
+    }
+    .Animakid_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .top_kid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .animakid_text{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 28px;
+        line-height: 39.2px;
+        font-weight: 600;
+        color: white;
+    }
+    .top_kid_bottom{
+        width: 100%;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .kid_btn1{
+        width: 100%;
+        height: 60px;
+        background-color: #A259FF;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2{
+        width: 100%;
+        height: 60px;
+        background-color: transparent;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2 i{
+        width: 20px;
+        height: 20px;
+        color: #A259FF;
+    }
+    .kid_row1{
+        width: 100%;
+        height: 57px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .Numbers{
+        width: 91px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Numbers_bold{
+        font-family: 'Space Mono', monospace;
+        color: white;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 700;
+    }
+    .Numbers p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    
+    .kid_row2{
+        width: 100%;
+        height: 54px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Bio{
+        font-family: 'Space Mono', monospace;
+        color: #858584;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    .kid_row2 p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    .kid_row3{
+        width: 100%;
+        height: 56px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .icons{
+        width: 160px;
+        height: 24px;
+        display: flex;
+        column-gap: 6px;
+    }
+    .icons i{
+        width: 24px;
+        height: 24px;
+        color: #858584;
+    }
+    .Line_part{
+        width: 85%;
+        margin: 0 auto;
+        height: 70px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        border-top: 1px solid #3B3B3B;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .Line_part_box{
+        width: 33%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+    }
+    .Line_part_box:hover{
+        border-bottom: 2px solid#858584;
+    }
+    .div302{
+        display: none;
+        width: 43px;
+        height: 23px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 12px;
+        line-height: 13.2px;
+        font-weight: 400;
+    }
+    .owned{
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600; 
+    }
+    .div67{
+        display: none;
+        width: 40px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    
+    .div_4{
+        display: none;
+        width: 30px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400; 
+}
+        
+        .Artist_cards{
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        padding: 80px 0px;
+        display: grid;
+        justify-content: space-between;
+        row-gap: 42px;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(3, 402px);
+        }
+
+        .scn5_card{
+            width: 100%;
+            height: 402px;
+        }
+        .artist_extra{
+            display: none;
+        }
+}
+
+
+
+@media screen and (min-width: 768px){
+    .artist{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+    }
+    .artist_container{
+        width: 100%;
+        height: 280px;
+        background-image: url('../images/section\ 12\ image1.png') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .artist_container img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        position: absolute;
+        bottom: -60px;
+        left: 7.5%;
+   
+    }
+
+    .Animakid{
+        width: 100%;
+        height: 60;
+        padding: 30px 0px;
+        background-color: #2B2B2B;
+        margin-top: 30px;
+        
+    }
+    .Animakid_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .top_kid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .animakid_text{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 38px;
+        line-height: 39.2px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .top_kid_bottom{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 30px;
+        column-gap: 20px;
+    }
+    .kid_btn1{
+        width: 186px;
+        height: 60px;
+        background-color: #A259FF;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2{
+        width: 145px ;
+        height: 60px;
+        background-color: transparent;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2 i{
+        width: 20px;
+        height: 20px;
+        color: #A259FF;
+    }
+
+    .kid_row1{
+        width: 510px;
+        height: 57px;
+        margin-top: 30px;
+        display: flex;
+        
+    }
+    .Numbers{
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Numbers_bold{
+        font-family: 'Space Mono', monospace;
+        color: white;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 700;
+    }
+    .Numbers p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    
+    .kid_row2{
+        width: 100%;
+        height: 54px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Bio{
+        font-family: 'Space Mono', monospace;
+        color: #858584;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    .kid_row2 p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    .kid_row3{
+        width: 100%;
+        height: 56px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .icons{
+        width: 160px;
+        height: 24px;
+        display: flex;
+        column-gap: 6px;
+    }
+    .icons i{
+        width: 24px;
+        height: 24px;
+        font-size: 16px;
+        color: #858584;
+    }
+    .Line_part{
+        width: 85%;
+        margin: 0 auto;
+        height: 70px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        border-top: 1px solid #3B3B3B;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .Line_part_box{
+        width: 33%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+    }
+    .Line_part_box:hover{
+        border-bottom: 2px solid#858584;
+    }
+    .div302{
+        display: flex;
+        width: 43px;
+        height: 23px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 12px;
+        line-height: 13.2px;
+        font-weight: 400;
+    }
+    .owned{
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600; 
+    }
+    .div67{
+        display: flex;
+        width: 35px;
+        height: 23px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 12px;
+        line-height: 13.2px;
+        font-weight: 400;
+    }
+    
+    .div_4{
+        display: flex;
+        width: 28px;
+        height: 23px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 12px;
+        line-height: 13.2px;
+        font-weight: 400; 
+}
+
+
+            
+        .Artist_cards{
+            width: 85%;
+            height: auto;
+            margin: 0 auto;
+            padding: 80px 0px;
+            display: grid;
+            justify-content: space-between;
+            row-gap: 42px;
+            grid-template-columns: repeat(2, 330px);
+            grid-template-rows: repeat(3, 469px);
+            }
+
+            .artist_extra{
+                display: none;
+            }
+
+            .scn5_card{  
+                width: 330px;
+                height: 469px;
+            }
+    
+            .yet{
+                display: flex;
+            }
+        
+            .scn5_card_image img{
+                width: 330px;
+                height: 295px;
+            }
+          
+        }
+
+
+@media screen and (min-width: 1200px){
+    .artist{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+    }
+    .artist_container{
+        width: 100%;
+        height: 320px;
+        background-image: url('../images/section\ 12\ image1.png') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .artist_container img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        position: absolute;
+        bottom: -60px;
+        left: 7.5%;
+   
+    }
+
+    .Animakid{
+        width: 100%;
+        height: 60;
+        padding: 30px 0px;
+        background-color: #2B2B2B;
+        margin-top: 30px;
+        
+    }
+    .Animakid_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .top_kid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .animakid_text{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 51px;
+        line-height: 56.1px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .top_kid_bottom{
+        width: 351px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 0;
+        column-gap: 20px;
+    }
+    .kid_btn1{
+        width: 186px;
+        height: 60px;
+        background-color: #A259FF;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2{
+        width: 145px ;
+        height: 60px;
+        background-color: transparent;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2 i{
+        width: 20px;
+        height: 20px;
+        color: #A259FF;
+    }
+
+    .kid_row1{
+        width: 510px;
+        height: 74px;
+        margin-top: 30px;
+        display: flex;
+        
+    }
+    .Numbers{
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Numbers_bold{
+        font-family: 'Space Mono', monospace;
+        color: white;
+        font-size: 28px;
+        line-height: 39.2px;
+        font-weight: 700;
+    }
+    .Numbers p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 400;
+    }
+    
+    .kid_row2{
+        width: 100%;
+        height: 80px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Bio{
+        font-family: 'Space Mono', monospace;
+        color: #858584;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 700;
+    }
+    .kid_row2 p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 400;
+    }
+    .kid_row3{
+        width: 100%;
+        height: 77px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .icons{
+        width: 200px;
+        height: 32px;
+        display: flex;
+        column-gap: 4px;
+    }
+    .icons i{
+        width: 32px;
+        height: 32px;
+        font-size: 22px;
+        color: #858584;
+    }
+    .Line_part{
+        width: 85%;
+        margin: 0 auto;
+        height: 70px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        border-top: 1px solid #3B3B3B;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .Line_part_box{
+        width: 33%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    .div302{
+        display: flex;
+        width: 50px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    .owned{
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        font-size: 22px;
+        line-height: 30.8px;
+        font-weight: 600; 
+    }
+    .div67{
+        display: flex;
+        width: 40px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    
+    .div_4{
+        display: flex;
+        width: 30px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400; 
+}
+
+
+
+    .Artist_cards{
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        padding: 80px 0px;
+        display: grid;
+        justify-content: space-between;
+        row-gap: 42px;
+        grid-template-columns: repeat(3, 330px);
+        grid-template-rows: repeat(3, 469px);
+        }
+
+        .artist_extra{
+            display: flex;
+        }
+
+        
+        .yet{
+            display: flex;
+        }
+
+        .scn5_card_image img{
+            width: 330px;
+            height: 295px;
+        }
+
+
+
+}
+@media screen and (min-width: 1400px){
+    .artist{
+        width: 100%;
+        height: auto;
+        background-color: #2B2B2B;
+    }
+    .artist_container{
+        width: 100%;
+        height: 320px;
+        background-image: url('../images/section\ 12\ image1.png') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .artist_container img{
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        position: absolute;
+        bottom: -60px;
+        left: 7.5%;
+   
+    }
+
+    .Animakid{
+        width: 100%;
+        height: 60;
+        padding: 30px 0px;
+        background-color: #2B2B2B;
+        margin-top: 30px;
+        
+    }
+    .Animakid_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .top_kid{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .animakid_text{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 51px;
+        line-height: 56.1px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .top_kid_bottom{
+        width: 351px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 0;
+        column-gap: 20px;
+    }
+    .kid_btn1{
+        width: 186px;
+        height: 60px;
+        background-color: #A259FF;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2{
+        width: 145px ;
+        height: 60px;
+        background-color: transparent;
+        border-radius: 20px;
+        color: white;
+        padding: 0px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        column-gap: 13px;
+    }
+    .kid_btn2 i{
+        width: 20px;
+        height: 20px;
+        color: #A259FF;
+    }
+
+    .kid_row1{
+        width: 510px;
+        height: 74px;
+        margin-top: 30px;
+        display: flex;
+        
+    }
+    .Numbers{
+        width: 33.3%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Numbers_bold{
+        font-family: 'Space Mono', monospace;
+        color: white;
+        font-size: 28px;
+        line-height: 39.2px;
+        font-weight: 700;
+    }
+    .Numbers p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 400;
+    }
+    
+    .kid_row2{
+        width: 100%;
+        height: 80px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Bio{
+        font-family: 'Space Mono', monospace;
+        color: #858584;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 700;
+    }
+    .kid_row2 p{
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+        font-size: 22px;
+        line-height: 35.2px;
+        font-weight: 400;
+    }
+    .kid_row3{
+        width: 100%;
+        height: 77px;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .icons{
+        width: 200px;
+        height: 32px;
+        display: flex;
+        column-gap: 4px;
+    }
+    .icons i{
+        width: 32px;
+        height: 32px;
+        font-size: 22px;
+        color: #858584;
+    }
+    .Line_part{
+        width: 85%;
+        margin: 0 auto;
+        height: 70px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        border-top: 1px solid #3B3B3B;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .Line_part_box{
+        width: 33%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    .div302{
+        display: flex;
+        width: 50px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    .owned{
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        font-size: 22px;
+        line-height: 30.8px;
+        font-weight: 600; 
+    }
+    .div67{
+        display: flex;
+        width: 40px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+    }
+    
+    .div_4{
+        display: flex;
+        width: 30px;
+        height: 32px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 5px 10px;
+        color: white;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400; 
+}
+
+
+        
+
+    .Artist_cards{
+        width: 85%;
+        height: auto;
+        margin: 0 auto;
+        padding: 80px 0px;
+        display: grid;
+        justify-content: space-between;
+        row-gap: 42px;
+        grid-template-columns: repeat(3, 330px);
+        grid-template-rows: repeat(3, 469px);
+        }
+
+        .artist_extra{
+            display: flex;
+        }
+
+        
+        .yet{
+            display: flex;
+        }
+
+        .scn5_card_image img{
+            width: 330px;
+            height: 295px;
+        }
+}

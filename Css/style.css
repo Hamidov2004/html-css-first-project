@@ -3169,13 +3169,13 @@ padding: 30px 0px;
             border-top-right-radius: 20px;
            }
           .section2_bottom_card1{
-            display: block;
+            display: flex;
           }
           .section2_bottom_card2{
-            display: block;
+            display: flex;
           }
           .section2_bottom_card3{
-            display: block;
+            display: flex;
           }
 
 
