@@ -163,11 +163,15 @@ body {
     height: 32px;
     display: flex;
 }
+.icons i:hover{
+    transform: scale(1.2);
+}
 .icons i{
     width: 32px;
     height: 32px;
     color: #858584;
 }
+
 .Line_part{
     width: 85%;
     margin: 0 auto;
@@ -259,6 +263,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .Artist_cards{
     width: 85%;
     height: auto;
@@ -272,6 +277,15 @@ body {
     padding: 25px 30px;
 }
 
+/* .scn5_card_image img:hover{
+    transform: scale(1.2);
+} */
+.scn5_card_image{
+    overflow: hidden;
+}
+.scn5_card_image img{
+    transition: .2s ease-in-out;
+}
 
 
 

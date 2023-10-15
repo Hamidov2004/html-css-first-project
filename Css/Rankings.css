@@ -1,0 +1,1038 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.Rankings{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #2B2B2B;
+}
+
+.Rankings_container{
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    padding: 80px 0px;
+}
+
+.market_place_category{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+   
+}
+.textran{
+    margin-top: 16px;
+}
+
+.Market_Rows{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 28px;
+    /* border: 2px solid blue; */
+    flex-direction: column;
+    row-gap: 30px;
+}
+.Market_Rows_unusual{
+    width: 100%;
+    height: 46px;
+    border-radius: 20px;
+    border: 1px solid #3B3B3B;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Rows_unusual_box1{
+    width: 50%;
+    height: 22px;
+    display: flex;
+    column-gap: 25px;
+}
+.Rows_unusual_box2{
+    width: 50%;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Rows_unusual_box2_items{
+    width: 33.3%;
+    height: 22px;
+}
+.small_box{
+    width: 33.3%;
+    height: 22px;
+}
+
+.rows_rankings_text{
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #858584;
+    font-size: 16px;
+}
+.Rows_unusual_twenty{
+    width: 100%;
+    height: 84px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Rows_unusual_twenty_left{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 25px;
+}
+.Rows_unusual_twenty_left img{
+    width: 60px;
+    height: 60px;
+}
+.twenty_text{
+    font-size: 22px;
+    line-height: 30.8px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+.grey_number{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2B2B2B;
+    line-height: 22.4px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    color: #858584;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Rows_unusual_twenty_right{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white_and_green{
+    line-height: 22.4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.small_box .green{
+    color: #00AC4F;
+}
+
+
+
+
+
+
+
+
+
+
+
+        /* Starting of Responsive Rankings */
+
+@media screen and (max-width: 576px){
+
+    .Rankings_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        display: grid;
+        padding: 80px 0px;
+    }
+    
+    .market_place_category{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 55px;
+       
+    }
+    .textran{
+        width: 100%;
+        margin-top: 16px;
+    }
+    
+    .owned{
+        display: none;
+    }
+    .owened_mobile{
+        display: flex;
+    }
+    .Market_Rows{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 28px;
+        /* border: 2px solid blue; */
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .Market_Rows_unusual{
+        width: 100%;
+        height: 46px;
+        border-radius: 20px;
+        border: 1px solid #3B3B3B;
+        padding: 0px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .Rows_unusual_box1{
+        width: 50%;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+    }
+    .Rows_unusual_box2{
+        width: 50%;
+        height: 22px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .Rows_unusual_box2_items{
+        width: 33.3%;
+        height: 22px;
+    }
+
+
+    
+    .rows_rankings_text{
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+        line-height: 13.2px;
+        color: #858584;
+        font-size: 12px;
+    }
+    
+    .Rows_unusual_twenty{
+        width: 100%;
+        height: 50px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        padding: 0px 15px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Rows_unusual_twenty_left{
+        width: 70%;
+        height: 24px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .Rows_unusual_twenty_left img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .twenty_text{
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+    }
+
+    .grey_number{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .Rows_unusual_twenty_right{
+        width: 30%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .white_and_green{
+        line-height: 13.2px;
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+        font-family: 'Space Mono', monospace;
+    }
+    .small_box{
+        width: 80%;
+        height: 13px;
+        display: flex;
+        justify-content: center;
+    }
+    .changed1{
+        display: none;
+    }
+    .changed2{
+        display: none;
+    }
+    .changed3{
+        display: flex;
+    }
+
+}
+
+
+
+@media screen and (min-width: 576px){
+    .Rankings_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        display: grid;
+        padding: 80px 0px;
+    }
+    
+    .market_place_category{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 55px;
+       
+    }
+    .textran{
+        width: 100%;
+        margin-top: 16px;
+    }
+    
+    .owned{
+        display: none;
+    }
+    .owened_mobile{
+        display: flex;
+    }
+    .Market_Rows{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 28px;
+        /* border: 2px solid blue; */
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .Market_Rows_unusual{
+        width: 100%;
+        height: 46px;
+        border-radius: 20px;
+        border: 1px solid #3B3B3B;
+        padding: 0px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .Rows_unusual_box1{
+        width: 50%;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+    }
+    .Rows_unusual_box2{
+        width: 50%;
+        height: 22px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .Rows_unusual_box2_items{
+        width: 33.3%;
+        height: 22px;
+    }
+  
+
+    
+    .rows_rankings_text{
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+        line-height: 13.2px;
+        color: #858584;
+        font-size: 12px;
+    }
+    
+    .Rows_unusual_twenty{
+        width: 100%;
+        height: 50px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        padding: 0px 15px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Rows_unusual_twenty_left{
+        width: 70%;
+        height: 24px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 10px;
+    }
+    .Rows_unusual_twenty_left img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .twenty_text{
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+    }
+
+    .grey_number{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .Rows_unusual_twenty_right{
+        width: 30%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .white_and_green{
+        line-height: 13.2px;
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+        font-family: 'Space Mono', monospace;
+    }
+    .small_box{
+        width: 80%;
+        height: 13px;
+        display: flex;
+        justify-content: center;
+    }
+    .changed1{
+        display: none;
+    }
+    .changed2{
+        display: none;
+    }
+    .changed3{
+        display: flex;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width: 768px){
+
+    .Rankings_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        display: grid;
+        padding: 80px 0px;
+    }
+    
+    .market_place_category{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 55px;
+       
+    }
+    .textran{
+        width: 100%;
+        margin-top: 16px;
+    }
+    
+    .owned{
+        display: flex;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+
+    }
+
+    .owened_mobile{
+        display: none;
+
+    }
+    
+    .Market_Rows{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 28px;
+        /* border: 2px solid blue; */
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .Market_Rows_unusual{
+        width: 100%;
+        height: 46px;
+        border-radius: 20px;
+        border: 1px solid #3B3B3B;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .Rows_unusual_box1{
+        width: 50%;
+        height: 22px;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+    }
+    .Rows_unusual_box2{
+        width: 50%;
+        height: 22px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+    }
+
+    .Rows_unusual_box2_items{
+        width: 33.3%;
+        height: 22px;
+    }
+   
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: flex;
+    }
+
+    
+    .rows_rankings_text{
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: #858584;
+        font-size: 16px;
+    }
+    
+    .Rows_unusual_twenty{
+        width: 100%;
+        height: 60px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Rows_unusual_twenty_left{
+        width: 50%;
+        height: 31px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 20px;
+    }
+    .Rows_unusual_twenty_left img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .twenty_text{
+        font-size: 22px;
+        line-height: 30.8px;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+    }
+
+    .grey_number{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .Rows_unusual_twenty_right{
+        width: 50%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .white_and_green{
+        line-height: 13.2px;
+        font-size: 12px;
+        font-weight: 400;
+        color: white;
+        font-family: 'Space Mono', monospace;
+    }
+    .white_and_green{
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        font-family: 'Space Mono', monospace;
+    }
+    .small_box{
+        width: 33.3%;
+        height: 22px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    
+    .changed1{
+        display: flex;
+    }
+    .changed2{
+        display: none;
+    }
+    .changed3{
+        display: flex;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px){
+
+    .Rankings_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        display: grid;
+        padding: 80px 0px;
+    }
+    
+    .market_place_category{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 55px;
+       
+    }
+    .textran{
+        width: 100%;
+        margin-top: 16px;
+    }
+    
+    .owned{
+        display: flex;
+        font-size: 22px;
+        line-height: 30.8px;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .owened_mobile{
+        display: none;
+    }
+    
+    .Market_Rows{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 28px;
+        /* border: 2px solid blue; */
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .Market_Rows_unusual{
+        width: 100%;
+        height: 46px;
+        border-radius: 20px;
+        border: 1px solid #3B3B3B;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        
+    }
+    .Rows_unusual_box1{
+        width: 50%;
+        height: 22px;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+    }
+    .Rows_unusual_box2{
+        width: 50%;
+        height: 22px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+    }
+
+    .Rows_unusual_box2_items{
+        width: 33.3%;
+        height: 22px;
+    }
+
+    .mobile{
+        display: flex;
+    }
+    .tablet{
+        display: flex;
+    }
+
+    
+    .rows_rankings_text{
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: #858584;
+        font-size: 16px;
+        
+    }
+    
+    .Rows_unusual_twenty{
+        width: 100%;
+        height: 84px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .Rows_unusual_twenty_left{
+        width: 50%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 35px;
+    }
+
+    .Rows_unusual_twenty_left img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .twenty_text{
+        font-size: 22px;
+        line-height: 30.8px;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+    }
+
+    .grey_number{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #2B2B2B;
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .Rows_unusual_twenty_right{
+        width: 50%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;   
+    }
+    
+    .small_box{
+        width: 33.3%;
+        height: 22px;
+    }
+    .changed1{
+        display: flex;
+    }
+    .changed2{
+        display: flex;
+    }
+    .changed3{
+        display: flex;
+    }
+
+    .white_and_green{
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        font-family: 'Space Mono', monospace;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1400px){
+
+    .Rankings_container{
+        width: 85%;
+        margin: 0 auto;
+        height: auto;
+        display: grid;
+        padding: 80px 0px;
+    }
+    
+    .market_place_category{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 55px;
+       
+    }
+    .textran{
+        width: 100%;
+        margin-top: 16px;
+    }
+    
+    .owned{
+        display: flex;
+    }
+
+    .owened_mobile{
+        display: none;
+    }
+    
+    .Market_Rows{
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 28px;
+        /* border: 2px solid blue; */
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .Market_Rows_unusual{
+        width: 100%;
+        height: 46px;
+        border-radius: 20px;
+        border: 1px solid #3B3B3B;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        
+    }
+    .Rows_unusual_box1{
+        width: 50%;
+        height: 22px;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+        column-gap: 25px;
+    }
+    .Rows_unusual_box2{
+        width: 50%;
+        height: 22px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+    }
+
+    .Rows_unusual_box2_items{
+        width: 33.3%;
+        height: 22px;
+    }
+
+    .mobile{
+        display: flex;
+    }
+    .tablet{
+        display: flex;
+    }
+
+    
+    .rows_rankings_text{
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: #858584;
+        font-size: 16px;
+        
+    }
+    
+    .Rows_unusual_twenty{
+        width: 100%;
+        height: 84px;
+        background-color: #3B3B3B;
+        border-radius: 20px;
+        padding: 0px 12px;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .Rows_unusual_twenty_left{
+        width: 50%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        column-gap: 35px;
+    }
+
+    .Rows_unusual_twenty_left img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .twenty_text{
+        font-size: 22px;
+        line-height: 30.8px;
+        font-weight: 600;
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+    }
+
+    .grey_number{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #2B2B2B;
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Work Sans', sans-serif;
+        color: #858584;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .Rows_unusual_twenty_right{
+        width: 50%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;   
+    }
+    
+    .small_box{
+        width: 33.3%;
+        height: 22px;
+    }
+    .changed1{
+        display: flex;
+    }
+    .changed2{
+        display: flex;
+    }
+    .changed3{
+        display: flex;
+    }
+
+    .white_and_green{
+        line-height: 22.4px;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        font-family: 'Space Mono', monospace;
+    }
+}

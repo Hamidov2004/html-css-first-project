@@ -1,0 +1,1389 @@
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Space Mono', monospace;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.NFT_image{
+    width: 100%;
+    height: 560px;
+    background-image: url('../images/NFT\ image1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.NFT_background_color{
+    width: 100%;
+    height: auto;
+    background-color: #2B2B2B;
+    padding: 50px 0px;
+}
+.NFT_container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.NFT_container_left{
+  width: 60%;
+  height: auto;
+  display: grid;
+  row-gap: 30px;
+}
+.NFT_container_right{
+  width: 40%;
+  height: auto;
+}
+
+.container_left_box1{
+  width: 100%;
+  height: 101px;
+  display: grid;
+}
+.text_grey{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  color: #858584;
+}
+
+
+.container_left_box2{
+  width: 100%;
+  height: 76px;
+  display: grid;
+  align-content: space-between;
+} 
+.container_left_box2 span{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30.8px;
+  color: white;
+}
+.left_box2_i{
+  width: 100%;
+  height: 31px;
+  display: flex;
+  column-gap: 10px
+}
+.left_box2_i img{
+  width: 24px;
+  height: 24px;
+}
+
+
+.container_left_box3{
+  width: 80%;
+  height: auto;
+
+}
+.long_text{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  color: white;
+  margin-top: 15px;
+}
+
+
+
+.container_left_box4{
+  width: 100%;
+  height: 125px;
+  display: grid;
+}
+
+.details_box1{
+  width: 100%;
+  height: 35px;
+
+}
+.details_box1 i{
+  font-size: 21px;
+  color: #858584;
+  margin-right: 6px;
+}
+.container_left_box5{
+  width: 100%;
+  height: 97px;
+  display: grid;
+  align-content: space-between;
+}
+.Tags_circle_box{
+  width: 80%;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+.Animation{
+  width: 150px;
+  height: 46px;
+  padding: 0px 30px;
+  border-radius: 20px;
+  background-color: #3B3B3B;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.illustration{
+  width: 175px;
+}
+.moon{
+  width: 110px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  color: white;
+}
+.NFT_container_right{
+  display: flex;
+  justify-content: end;
+}
+.clock_container{
+  width: 295px;
+  height: 234px;
+  padding: 30px;
+  display: grid;
+  align-content: space-between;
+  background-color: #3B3B3B;
+
+}
+.clock_btn{
+  width: 100%;
+  height: 60px;
+  background-color: #A259FF;
+  padding: 0px 50px;
+  border-radius: 20px;
+  border: none;
+}
+.clock_btn p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  color: white;
+}
+.clock_container_box{
+  margin-top: 0px;
+  margin-bottom: 22px;
+}
+
+
+.More_artist{
+  width: 85%;
+  height: auto;
+  padding: 50px 0px;
+  margin: 0 auto;
+}
+.More_artist_top{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.M_left_top{
+  width: 682px;
+  height: 46px;
+}
+
+.More_artist_p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  color: rgba(255, 255, 255, 0.629);
+  margin-left: 7px;
+}
+.more_artist_btn{
+  width: 268px;
+  height: 60px;
+  padding: 0px 40px;
+}
+.more_artist_btn i{
+  color: #A259FF;
+  font-size: 18px;
+}
+
+.More_cards{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 80px 0px;
+  display: grid;
+  justify-content: space-between;
+  row-gap: 50px;
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(3, 469px);
+  padding: 80px 0px;
+}
+
+
+.More_New_cards{
+  background-color: #3B3B3B;
+  width: 330px;
+  height: 469px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+  
+            .NFT_image{
+                width: 100%;
+                height: 320px;
+                background-image: url('../images/NFT\ image1.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .NFT_background_color{
+                width: 100%;
+                height: auto;
+                background-color: #2B2B2B;
+                padding: 50px 0px;
+            }
+
+            .NFT_container{
+                width: 85%;
+                height: auto;
+                margin: 0 auto;
+                display: flex;
+            }
+
+            .NFT_container_left{
+              width: 100%;
+              height: auto;
+              display: grid;
+              row-gap: 30px;
+            }
+
+
+
+            .container_left_box1{
+              width: 100%;
+              height: 71px;
+              display: grid;
+            }
+
+            .text_grey{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: #858584;
+            }
+
+
+            .container_left_box2{
+              width: 100%;
+              height: 56px;
+              display: grid;
+            } 
+            .container_left_box2 span{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: white;
+            }
+            .left_box2_i{
+              width: 100%;
+              height: 24px;
+              display: flex;
+              column-gap: 10px
+            }
+            .left_box2_i img{
+              width: 24px;
+              height: 24px;
+            }
+
+
+            .container_left_box3{
+              width: 100%;
+              height: auto;
+
+            }
+
+            .long_text{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: white;
+              margin-top: 15px;
+            }
+
+
+
+            .container_left_box4{
+              width: 100%;
+              height: 90px;
+              display: grid;
+              row-gap: 10px;
+              
+            }
+
+            .details_box1{
+              width: 100%;
+              height: 24px;
+
+            }
+            .details_box1 i{
+              font-size: 18px;
+              color: #858584;
+              margin-right: 6px;
+            }
+
+            .container_left_box5{
+              width: 100%;
+              height: 286px;
+              display: grid;
+              align-content: space-between;
+
+            }
+
+            .Tags_circle_box{
+              width: 100%;
+              height: 244px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            }
+
+
+            .NFT_container_right{
+              display: none;
+              justify-content: end;
+              width: 40%;
+              height: auto;
+            }
+
+            .mobile{
+              display:flex;
+              width: 100%;
+              height: 234px;
+              padding: 30px;
+              display: grid;
+              align-content: space-between;
+              background-color: #3B3B3B;
+
+            }
+
+            .desktop{
+              display: none;
+            }
+
+            .clock_btn{
+              width: 100%;
+              height: 60px;
+              background-color: #A259FF;
+              padding: 0px 50px;
+              border-radius: 20px;
+              border: none;
+            }
+
+            /* More_artists mobile responsive*/
+            
+              .More_artist{
+                width: 85%;
+                height: auto;
+                padding: 50px 0px;
+                margin: 0 auto;
+                position: relative;
+              }
+              .More_artist_top{
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+              }
+              .More_artist_p{
+                font-family: 'Work Sans', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22.4px;
+                color: white;
+                margin-left: 7px;
+              }
+              .more_artist_btn{
+                width: 268px;
+                height: 60px;
+                padding: 0px 40px;
+              }
+              .more_artist_btn i{
+                color: #A259FF;
+                font-size: 18px;
+              }
+
+              .More_cards{
+                width: 100%;
+                height: auto;
+                margin: 0 auto;
+                display: grid;
+                align-content: start;
+                row-gap: 0px;
+                grid-template-columns: repeat(1, 100%);
+                grid-template-rows: repeat(2, 469px);
+                padding: 80px 0px;
+              }
+
+              .More_cards div{
+                background-color: #3B3B3B;
+                border-radius: 20px;
+              }
+
+
+              .M_left_top{
+                width: 100%;
+                height: auto;
+              }
+              .View_Rankings{
+                width: 0px;
+                height: 0px;
+              }
+              .View_Rankings_btn{
+                width: 100%;
+                height: 60px;
+                position: absolute;
+                left: 50%;
+                bottom: 5%;
+                transform: translate(-50%, -50%);
+              }
+
+
+            }
+
+
+@media screen and (min-width: 576px){
+            .NFT_image{
+                width: 100%;
+                height: 320px;
+                background-image: url('../images/NFT\ image1.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .NFT_background_color{
+                width: 100%;
+                height: auto;
+                background-color: #2B2B2B;
+                padding: 50px 0px;
+            }
+
+            .NFT_container{
+                width: 85%;
+                height: auto;
+                margin: 0 auto;
+                display: flex;
+            }
+
+            .NFT_container_left{
+              width: 100%;
+              height: auto;
+              display: grid;
+              row-gap: 30px;
+            }
+
+
+
+            .container_left_box1{
+              width: 100%;
+              height: 71px;
+              display: grid;
+            }
+
+            .text_grey{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: #858584;
+            }
+
+
+            .container_left_box2{
+              width: 100%;
+              height: 56px;
+              display: grid;
+            } 
+            .container_left_box2 span{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: white;
+            }
+            .left_box2_i{
+              width: 100%;
+              height: 24px;
+              display: flex;
+              column-gap: 10px
+            }
+            .left_box2_i img{
+              width: 24px;
+              height: 24px;
+            }
+
+
+            .container_left_box3{
+              width: 100%;
+              height: auto;
+
+            }
+
+            .long_text{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: white;
+              margin-top: 15px;
+            }
+
+
+
+            .container_left_box4{
+              width: 100%;
+              height: 90px;
+              display: grid;
+              row-gap: 10px;
+              
+            }
+
+            .details_box1{
+              width: 100%;
+              height: 24px;
+
+            }
+            .details_box1 i{
+              font-size: 18px;
+              color: #858584;
+              margin-right: 6px;
+            }
+
+            .container_left_box5{
+              width: 100%;
+              height: 286px;
+              display: grid;
+              align-content: space-between;
+
+            }
+
+            .Tags_circle_box{
+              width: 100%;
+              height: 244px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            }
+
+
+            .NFT_container_right{
+              display: none;
+              justify-content: end;
+              width: 40%;
+              height: auto;
+            }
+
+            .mobile{
+              display:flex;
+              width: 100%;
+              height: 234px;
+              padding: 30px;
+              display: grid;
+              align-content: space-between;
+              background-color: #3B3B3B;
+
+            }
+
+            .desktop{
+              display: none;
+            }
+
+            .clock_btn{
+              width: 100%;
+              height: 60px;
+              background-color: #A259FF;
+              padding: 0px 50px;
+              border-radius: 20px;
+              border: none;
+            }
+
+
+             /* More_artists mobile responsive*/
+            
+             .More_artist{
+              width: 85%;
+              height: auto;
+              padding: 50px 0px;
+              margin: 0 auto;
+              position: relative;
+            }
+            .More_artist_top{
+              width: 100%;
+              height: 60px;
+              display: flex;
+              justify-content: space-between;
+            }
+            .More_artist_p{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 22.4px;
+              color: white;
+              margin-left: 7px;
+            }
+            .more_artist_btn{
+              width: 268px;
+              height: 60px;
+              padding: 0px 40px;
+            }
+            .more_artist_btn i{
+              color: #A259FF;
+              font-size: 18px;
+            }
+
+            .More_cards{
+              width: 100%;
+              height: auto;
+              margin: 0 auto;
+              display: grid;
+              align-content: start;
+              row-gap: 0px;
+              grid-template-columns: repeat(1, 100%);
+              grid-template-rows: repeat(2, 469px);
+              padding: 80px 0px;
+
+            }
+
+
+      
+
+            .More_cards div{
+              background-color: #3B3B3B;
+              border-radius: 20px;
+            }
+
+
+            .M_left_top{
+              width: 100%;
+              height: auto;
+            }
+            .View_Rankings{
+              width: 0px;
+              height: 0px;
+            }
+            .View_Rankings_btn{
+              width: 100%;
+              height: 60px;
+              position: absolute;
+              left: 50%;
+              bottom: 5%;
+              transform: translate(-50%, -50%);
+            }
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+            .NFT_image{
+                width: 100%;
+                height: 420px;
+                background-image: url('../images/NFT\ image1.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .NFT_background_color{
+                width: 100%;
+                height: auto;
+                background-color: #2B2B2B;
+                padding: 50px 0px;
+            }
+
+            .NFT_container{
+                width: 85%;
+                height: auto;
+                margin: 0 auto;
+                display: flex;
+            }
+
+            .NFT_container_left{
+              width: 100%;
+              height: auto;
+              display: grid;
+              row-gap: 30px;
+            }
+
+
+
+            .container_left_box1{
+              width: 100%;
+              height: 71px;
+              display: grid;
+            }
+
+            .text_grey{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: #858584;
+            }
+
+
+            .container_left_box2{
+              width: 100%;
+              height: 56px;
+              display: grid;
+            } 
+
+            .container_left_box2 span{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: white;
+            }
+
+            .left_box2_i{
+              width: 100%;
+              height: 24px;
+              display: flex;
+              column-gap: 10px
+            }
+            
+            .left_box2_i img{
+              width: 24px;
+              height: 24px;
+            }
+
+
+            .container_left_box3{
+              width: 90%;
+              height: auto;
+
+            }
+
+            .long_text{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: white;
+              margin-top: 15px;
+            }
+
+
+
+            .container_left_box4{
+              width: 100%;
+              height: 90px;
+              display: grid;
+              row-gap: 10px;
+              
+            }
+
+            .details_box1{
+              width: 100%;
+              height: 24px;
+
+            }
+            .details_box1 i{
+              font-size: 18px;
+              color: #858584;
+              margin-right: 6px;
+            }
+
+            .container_left_box5{
+              width: 100%;
+              height: 286px;
+              display: grid;
+              align-content: space-between;
+
+            }
+
+            .Tags_circle_box{
+              width: 100%;
+              height: 244px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+            }
+
+
+            .NFT_container_right{
+              display: flex;
+              justify-content: end;
+              width: 40%;
+              height: auto;
+            }
+
+            .mobile{
+              
+              width: 100%;
+              height: 234px;
+              padding: 30px;
+              display: grid;
+              align-content: space-between;
+              background-color: #3B3B3B;
+              display: none;
+
+            }
+
+            .desktop{
+              display: flex;
+              width: 295px;
+              height: 234px;
+              padding: 30px;
+              display: grid;
+              align-content: space-between;
+              background-color: #3B3B3B;
+            }
+
+            .clock_btn{
+              width: 100%;
+              height: 60px;
+              background-color: #A259FF;
+              padding: 0px 50px;
+              border-radius: 20px;
+              border: none;
+            }
+
+
+             /* More_artists tablet responsive*/
+            
+             .More_artist{
+              width: 85%;
+              height: auto;
+              padding: 50px 0px;
+              margin: 0 auto;
+            }
+            .More_artist_top{
+              width: 100%;
+              height: auto;
+              display: flex;
+              justify-content: space-between;
+            }
+            .More_artist_p{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 22.4px;
+              color: white;
+              margin-left: 7px;
+            }
+            .more_artist_btn{
+              width: 268px;
+              height: 60px;
+              padding: 0px 40px;
+            }
+            .more_artist_btn i{
+              color: #A259FF;
+              font-size: 18px;
+            }
+
+            .More_cards{
+              width: 100%;
+              height: auto;
+              margin: 0 auto;
+              display: grid;
+              align-content: start;
+              row-gap: 50px;
+              grid-template-columns: repeat(2, 330px);
+              grid-template-rows: repeat(3, 469px);
+              padding: 80px 0px;
+            }
+            
+            .More_cards div{
+              background-color: #3B3B3B;
+              border-radius: 20px;
+            }
+
+
+            .M_left_top{
+              width: 60%;
+              height: 39px;
+            }
+
+            .View_Rankings{
+              width: 40% ;
+              height: 60px;
+              left: 0%;
+              height: 0%;
+              display: flex;
+              justify-content: flex-end;
+              align-items: flex-end;
+              position: static;
+            }
+
+            .View_Rankings_btn {
+              width: 272px;
+              height: 60px;
+              position: static;
+              left: 0%;
+              top: 0%;
+              transform: translate(0%, 0%);
+            }
+
+            .scn5_card:nth-child(n+7){
+              display: none;
+            }
+            
+
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+            .NFT_image{
+                width: 100%;
+                height: 560px;
+                background-image: url('../images/NFT\ image1.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .NFT_background_color{
+                width: 100%;
+                height: auto;
+                background-color: #2B2B2B;
+                padding: 50px 0px;
+            }
+
+            .NFT_container{
+                width: 85%;
+                height: auto;
+                margin: 0 auto;
+                display: flex;
+            }
+
+            .NFT_container_left{
+              width: 60%;
+              height: auto;
+              display: grid;
+              row-gap: 30px;
+            }
+
+
+
+            .container_left_box1{
+              width: 100%;
+              height: 101px;
+              display: grid;
+            }
+
+            .text_grey{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 22px;
+              font-weight: 400;
+              line-height: 35.2px;
+              color: #858584;
+            }
+
+
+            .container_left_box2{
+              width: 100%;
+              height: 76px;
+              display: grid;
+            } 
+
+            .container_left_box2 span{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: white;
+            }
+
+            .left_box2_i{
+              width: 100%;
+              height: 24px;
+              display: flex;
+              column-gap: 10px
+            }
+            
+            .left_box2_i img{
+              width: 24px;
+              height: 24px;
+            }
+
+
+            .container_left_box3{
+              width: 90%;
+              height: auto;
+
+            }
+
+            .long_text{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 22px;
+              font-weight: 400;
+              line-height: 35.2px;
+              color: white;
+              margin-top: 15px;
+            }
+
+
+
+            .container_left_box4{
+              width: 100%;
+              height: 125px;
+              display: grid;
+              row-gap: 10px;
+              
+            }
+
+            .details_box1{
+              width: 100%;
+              height: 35px;
+
+            }
+            .details_box1 i{
+              font-size: 20px;
+              color: #858584;
+              margin-right: 6px;
+            }
+
+            .container_left_box5{
+              width: 100%;
+              height: 97px;
+              display: grid;
+              align-content: space-between;
+
+            }
+
+            .Tags_circle_box{
+              width: 90%;
+              height: 46px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
+
+
+            .NFT_container_right{
+              display: flex;
+              justify-content: end;
+              width: 40%;
+              height: auto;
+            }
+
+            .mobile{
+              width: 100%;
+              height: 234px;
+              padding: 30px;
+              display: grid;
+              align-content: space-between;
+              background-color: #3B3B3B;
+              display: none;
+
+            }
+
+            .desktop{
+              display: flex;
+              width: 295px;
+              height: 234px;
+              padding: 30px;
+              display: grid;
+              align-content: space-between;
+              background-color: #3B3B3B;
+            }
+
+            .clock_btn{
+              width: 100%;
+              height: 60px;
+              background-color: #A259FF;
+              padding: 0px 50px;
+              border-radius: 20px;
+              border: none;
+            }
+
+
+
+
+
+            
+             /* More_artists tablet responsive*/
+            
+             .More_artist{
+              width: 85%;
+              height: auto;
+              padding: 50px 0px;
+              margin: 0 auto;
+
+            }
+            .More_artist_top{
+              width: 100%;
+              height: auto;
+              display: flex;
+              justify-content: space-between;
+            }
+            .More_artist_p{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 22.4px;
+              color: white;
+              margin-left: 7px;
+            }
+            .more_artist_btn{
+              width: 268px;
+              height: 60px;
+              padding: 0px 40px;
+            }
+            .more_artist_btn i{
+              color: #A259FF;
+              font-size: 18px;
+            }
+
+            .More_cards{
+              width: 100%;
+              height: auto;
+              margin: 0 auto;
+              display: grid;
+              align-content: start;
+              row-gap: 50px;
+              grid-template-columns: repeat(3, 330px);
+              grid-template-rows: repeat(3, 469px);
+              padding: 80px 0px;
+            }
+            
+            .More_cards div{
+              background-color: #3B3B3B;
+              border-radius: 20px;
+            }
+            
+
+
+            .M_left_top{
+              width: 60%;
+              height: 39px;
+            }
+
+            .View_Rankings{
+              width: 40% ;
+              height: 60px;
+              left: 0%;
+              height: 0%;
+              display: flex;
+              justify-content: flex-end;
+              align-items: flex-end;
+              position: static;
+            }
+
+            .View_Rankings_btn {
+              width: 272px;
+              height: 60px;
+              position: static;
+              left: 0%;
+              top: 0%;
+              transform: translate(0%, 0%);
+            }
+            
+            .scn5_card:nth-child(n+7){
+              display: flex;
+            }
+}
+
+
+
+
+
+@media screen and (min-width: 1400px){
+             .NFT_image{
+                width: 100%;
+                height: 560px;
+                background-image: url('../images/NFT\ image1.png');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .NFT_background_color{
+                width: 100%;
+                height: auto;
+                background-color: #2B2B2B;
+                padding: 50px 0px;
+            }
+
+            .NFT_container{
+                width: 85%;
+                height: auto;
+                margin: 0 auto;
+                display: flex;
+            }
+
+            .NFT_container_left{
+              width: 60%;
+              height: auto;
+              display: grid;
+              row-gap: 30px;
+            }
+
+
+
+            .container_left_box1{
+              width: 100%;
+              height: 101px;
+              display: grid;
+            }
+
+            .text_grey{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 22px;
+              font-weight: 400;
+              line-height: 35.2px;
+              color: #858584;
+            }
+
+
+            .container_left_box2{
+              width: 100%;
+              height: 76px;
+              display: grid;
+            } 
+
+            .container_left_box2 span{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 22.4px;
+              color: white;
+            }
+
+            .left_box2_i{
+              width: 100%;
+              height: 24px;
+              display: flex;
+              column-gap: 10px
+            }
+            
+            .left_box2_i img{
+              width: 24px;
+              height: 24px;
+            }
+
+
+            .container_left_box3{
+              width: 90%;
+              height: auto;
+
+            }
+
+            .long_text{
+              font-family: 'Work Sans', sans-serif;
+              font-size: 22px;
+              font-weight: 400;
+              line-height: 35.2px;
+              color: white;
+              margin-top: 15px;
+            }
+
+
+
+            .container_left_box4{
+              width: 100%;
+              height: 125px;
+              display: grid;
+              row-gap: 10px;
+              
+            }
+
+            .details_box1{
+              width: 100%;
+              height: 35px;
+
+            }
+            .details_box1 i{
+              font-size: 20px;
+              color: #858584;
+              margin-right: 6px;
+            }
+
+            .container_left_box5{
+              width: 100%;
+              height: 97px;
+              display: grid;
+              align-content: space-between;
+
+            }
+
+            .Tags_circle_box{
+              width: 90%;
+              height: 46px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
+
+
+            .NFT_container_right{
+              display: flex;
+              justify-content: end;
+              width: 40%;
+              height: auto;
+            }
+
+            .mobile{
+              width: 100%;
+              height: 234px;
+              padding: 30px;
+              display: grid;
+              align-content: space-between;
+              background-color: #3B3B3B;
+              display: none;
+
+            }
+
+            .desktop{
+              display: flex;
+              width: 295px;
+              height: 234px;
+              padding: 30px;
+              display: grid;
+              align-content: space-between;
+              background-color: #3B3B3B;
+            }
+
+            .clock_btn{
+              width: 100%;
+              height: 60px;
+              background-color: #A259FF;
+              padding: 0px 50px;
+              border-radius: 20px;
+              border: none;
+            }
+}
